@@ -79,3 +79,21 @@ OPTION 2 (achtung kann etwas kompliziert werden):
 8. gebe ein: `gh repo clone StarMiner99/UselessTexturePack`
 9. GitHub CLI hat jetzt einen neuen ordner namens "UselessTexturePack erstellt"
 10. in diesem ordner befindet sich das texture pack
+11. was du noch machen musst:
+12. setze dein git benutzername und deine email (das ist kein einloggen)
+13. führe dazu einfach folgendes in dem terminal bzw. cmd.exe aus:
+14. `git config --global user.email "you@example.com"` natürlich you@example.com ersetzen mit deiner email
+15. `git config --global user.name "Your Name"` Your Name musst du mit deinem namen ersetzen
+
+#### 3.1.2.3 Änderungen ausprobieren bzw. genauer anschauen
+1. hierfür brauchst du erneut das terminal bzw. die cmd.exe
+2. gehe mit "cd" in den ordner des Texturepack also `cd C:\User\IrgendeinOger\random\shit\UselessTexturePack` oder wo auch immer du es runtergeladen hast
+3. jetzt kannst du auf der webseite der änderung auf den knopf "Code" oben rechts in der ecke gehen
+4. dort befindet sich eine zeile code den du dir jetzt kopieren kannst und eingeben kannst
+5. der code sollte so aussehen: `gh pr checkout <änderungID>`
+6. geh wieder in dein terminal bzw. cmd.exe und geb das ein
+7. die änderung wird automatisch vorgenommen ABER nur an deinem PC
+8. um wieder zurück zum normalen zu kehren kannst du einfach `git checkout master` eingeben
+  
+
+  
