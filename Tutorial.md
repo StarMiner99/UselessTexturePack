@@ -127,4 +127,5 @@ Bis hier wiederholen (das geht auch noch nach dem "Pull request" noch das wird d
 22. jetzt kannst du auf discord ne nacricht mit dem link der änderung schreiben und alle können dafür voten wenn sie wollen
 23. sobalt dafür gevoted wurde kannst du auf "Merge pull request" gehen.
 24. wenn aber dagegen gevoted wird, wird die änderung nicht vorgenommen und deshalb auch nicht "gemerged" also dan darfst du NICHT diesen knopf drücken
+25. am ende wen du fertig bist mit deiner änderung kannst du wieder auf die standart abzweigung `master` wechseln also: `git checkout master`
   
