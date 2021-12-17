@@ -54,5 +54,28 @@ DISCLAIMER: dieses tutorial ist wirklich unglaublich unnötig ausführlich lol w
 
 ## 3. Änderungen vornehmen und herunterladen
 
-### 3.1 
--- WIP
+OPTION 1:
+### 3.1.1 Frag jemanden lol
+1. frag StarMiner99 oder Schmensch oder irgendjemand der weis wie das geht weil das muss man leider mit command line (cmd.exe) machen
+2. schick einfach die änderung an ihn/sie über discord und der/die macht das dan einfach.
+3. wenn du ne änderung austesten willst frag einfach danach und schick den link von der änderung rein.
+
+OPTION 2 (achtung kann etwas kompliziert werden):
+### 3.1.2 GitHub CLI und Git herunterladen
+#### 3.1.2.1 Installieren von git und github cli:
+1. lade dir git herunter und installier es: https://git-scm.com/download/
+2. lade dir gitub cli herunter: https://github.com/cli/cli/releases/tag/v2.3.0
+3. wähle halt die passende datei unten aus (.msi für windows, .deb für linux, der rest steht im namen)
+4. und dan installier sie indem du die heruntergeladene datei doppelklickst
+
+#### 3.1.2.2 Das Texture pack herunterladen sodass man es modifizieren kann (muss man nur ein einziges mal machen)
+1. WENN DU KEINE AHNUNG HAST WIE DU mit "cd" und mit "dir" bzw. "ls" arbeiten musst dan wird dir das folgende nichts bringen also frag jmd wie das funktioniert.
+2. öffne ein "terminal" bzw. "cmd.exe" für windows 
+3. gehe mit "cd <dateipdaf>" in einen ordner wo das texturepack heruntergeladen werden soll
+4. ACHTUNG: ein unterordner wird automatisch erstellt
+5. jetzt gebe folgendes ein: `gh auth login`
+6. GitHub CLI wird dir jetzt ein paar fragen stellen und dir anweisungen geben für wie du dich einlogst, folge diesen einfach.
+7. sobald du dich eingelogt hast kannst du jetzt anfangen die repo herunterzuladen:
+8. gebe ein: `gh repo clone StarMiner99/UselessTexturePack`
+9. GitHub CLI hat jetzt einen neuen ordner namens "UselessTexturePack erstellt"
+10. in diesem ordner befindet sich das texture pack
