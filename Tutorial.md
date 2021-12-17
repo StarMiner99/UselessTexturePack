@@ -94,6 +94,37 @@ OPTION 2 (achtung kann etwas kompliziert werden):
 6. geh wieder in dein terminal bzw. cmd.exe und geb das ein
 7. die änderung wird automatisch vorgenommen ABER nur an deinem PC
 8. um wieder zurück zum normalen zu kehren kannst du einfach `git checkout master` eingeben
+9. um das Texturepack auf die neuste version zu bringen musst du `git pull` eingeben.
   
+#### 3.1.2.4 Änderungen vornehmen
+1. als aller erstes bevor du eine änderung machst:
+2. gehe in ein terminal bzw. cmd.exe und gehe wieder mit "cd" in den ordner des Texturepacks
+3. immer bevor du eine änderung machst musst du das Texturepack auf die neuste version bringen das machst du mit: `git pull`
+4. jetzt musst du als aller erstes eine neue "abzweigung" (branch) erstellen für deine änderung
+5. `git branch <name der abzweigung>` der name kann irgendwas random sein aber er sollte nicht bereits existieren. Auserdem musst du zusätzlich `git push --set-upstream origin <name der abzweigung>` machen.
+6. das kannst du nachschauen indem du auf die webseite des Texturepacks gehst und dan links oben auf "master" klickst und schaust ob es dort schon eine abzweigung mit diesen namen gibt
+7. merke dir: "master" ist immer die standart abzweigung
+8. wenn du jetzt `git branch` eingibst kannst du alle abzweigungen sehen die mit dem sternchen davor hast du momentan ausgewählt
+9. wähle die richtige abzweigung aus: 
+10. um eine abzweigung aus zu wählen musst du folgendes tun: `git checkout <name der abzweigung>`
+11. wenn du jetzt erneut `git branch` ausführst wirst du sehen, dass die abzweigung ausgewählt wurde
 
+Die folgenden schritte kannst du so oft wiederholen bis du zufrieden bist:
+
+12. jetzt kannst du alle änderungen vornehmen die du vornehmen willst.
+13. sobald du fertig bist musst du die änderungen "registrieren" (adden) die einfachste möglichkeit ist einfach: `git add *` wichtig * nicht ersetzen
+14. das musst du dann, ich nenn es mal "abspeichern" (commiten) indem du eingibst: `git commit -m "beschreibung deiner änderung"`
+15. nun musst du die änderung nur noch hochladen mit: `git push`
+
+Bis hier wiederholen (das geht auch noch nach dem "Pull request" noch das wird dan automatisch hinzugefügt)
+
+16. jetzt kannst du auf die website von dem Texturepack gehen und auf den reiter "Pull request"
+17. dort kannst du jetzt auf "New pull request" gehen
+18. hier musst du oben bei "base" "master" auswählen und bei "compare" deine abzweigung die du soeben erstellt hast
+19. jetzt kannst du auf "Create Pull request" gehen
+20. im nächsten fenster solltest du eine beschreibung angeben und einen titel der änderung wenn du willst auch mit bildern
+21. sobald du fertig bist drück einfach wieder den grünen knopf
+22. jetzt kannst du auf discord ne nacricht mit dem link der änderung schreiben und alle können dafür voten wenn sie wollen
+23. sobalt dafür gevoted wurde kannst du auf "Merge pull request" gehen.
+24. wenn aber dagegen gevoted wird, wird die änderung nicht vorgenommen und deshalb auch nicht "gemerged" also dan darfst du NICHT diesen knopf drücken
   
