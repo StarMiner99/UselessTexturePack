@@ -43,5 +43,16 @@ DISCLAIMER: dieses tutorial ist wirklich unglaublich unnötig ausführlich lol w
 11. das einfach kopieren und dan in den minecraft texture pack ordner rein machen.
 
 ### 2.2 Geplante änderungen ansehen und dafür voten bzw. kommentieren
--- WIP (Work In progress (In Arbeit))
+7. wenn du dir die geplanten änderungen ansehen willst kannst du auf den reiter "Pull requests" gehen
+8. dort befindet sich eine liste mit geplanten änderungen wie zum beispiel die änderung "beispiel"
+9. klicke auf die änderung die du dir ansehen willst
+10. hier seht ihr eine beschreibung der änderung die vorgenommen wurde und hoffentlich auch ein paar screenshots die der jenige der die änderung gemacht hat reingestellt hat
+11. wenn ihr für oder gegen die änderung voten wollt könnt ihr das tun indem ihr auf die nachricht mit einem "daumen hoch" oder mit einem "daumen runter" reagiert
+12. wenn ihr euren kommentar dazu abgeben wollt könnt ihr das auch machen
+13. der knopf "Merge pull request" führt dazu das die änderungen vorgenommen werden also bitte nicht sofort diesen knopf drücken sondern erst wenn DAFÜR gevoted wurde bzw. die änderung nur ein kleiner bugfix ist.
+14. wenn ihr die änderung austesten wollt und sie herunterladen wollt könnt ihr zu "*3. änderungen vornehmen und herunterladen*" gehen
 
+## 3. Änderungen vornehmen und herunterladen
+
+### 3.1 
+-- WIP
